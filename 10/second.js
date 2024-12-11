@@ -26,7 +26,7 @@ const calculateTrailScore = ({ map, x, y, previousValue }) => {
     return scoreSum;
 }
 
-const first = (input) => {
+const second = (input) => {
     const map = [];
 
     input.split("\n").forEach((line, i) => {
@@ -52,5 +52,5 @@ const first = (input) => {
     return finalScore;
 };
 
-runWithInput("10.txt", first);
+runWithInput("10.txt", second);
 
